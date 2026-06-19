@@ -1,81 +1,148 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Burger Boycot Coca Cola</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f7fa;
-      margin: 0;
-      padding: 20px;
-      color: #333;
-    }
+<title>Burger Boycot Coca Cola</title>
 
-    .container {
-      max-width: 700px;
-      margin: 40px auto;
-      text-align: center;
-    }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+}
 
-    h1 {
-      color: #b30000;
-    }
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+}
 
-    .intro {
-      font-size: 1.2em;
-      font-style: italic;
-      margin-bottom: 30px;
+.banner {
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.hero h1 {
+    font-size: 2.4rem;
+    color: #d10000;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.button {
+    display: block;
+    padding: 18px;
+    background-color: #d10000;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #a80000;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 2rem;
     }
 
     .button {
-      display: block;
-      margin: 15px 0;
-      padding: 18px;
-      background-color: #0078d4;
-      color: white;
-      text-decoration: none;
-      border-radius: 10px;
-      font-size: 18px;
-      font-weight: bold;
+        font-size: 1rem;
+        padding: 16px;
     }
-
-    .button:hover {
-      background-color: #005ea6;
-    }
-  </style>
+}
+</style>
 </head>
+
 <body>
 
 <div class="container">
 
-  <h1>Burger Boycot Coca Cola</h1>
+    <div class="banner">
+        <img src="banner.jpg" alt="Boycot Coca Cola">
+    </div>
 
-  <p class="intro">
-    "Als je niet kunt veranderen wat zij doen, kun je wel veranderen wat jij steunt."
-  </p>
+    <div class="hero">
+        <h1>Burger Boycot Coca Cola</h1>
 
-  <a class="button" href="https://burgerboycotcocacola.com" target="_blank">
-    Website Burger Boycot Coca Cola
-  </a>
+        <p>
+            "Als je niet kunt veranderen wat zij doen,
+            kun je wel veranderen wat jij steunt."
+        </p>
+    </div>
 
-  <a class="button" href="https://sleutelstad.nl/2026/06/17/leidse-maria-remmerswaal-roept-op-tot-boycot-coca-cola/" target="_blank">
-    In het nieuws
-  </a>
+    <div class="links">
 
-  <a class="button" href="https://drive.proton.me/urls/Q8Y92VM7SG#IT6ZKhAoAyFi" target="_blank">
-    Flyer Rode Lijn
-  </a>
+        <a class="button"
+           href="https://burgerboycotcocacola.com"
+           target="_blank">
+            🌐 Website Burger Boycot Coca Cola
+        </a>
 
-  <a class="button" href="https://drive.proton.me/urls/KCKKY4N338#djkPlQtDdJib" target="_blank">
-    Flyer Palestine Drinks
-  </a>
+        <a class="button"
+           href="https://sleutelstad.nl/2026/06/17/leidse-maria-remmerswaal-roept-op-tot-boycot-coca-cola/"
+           target="_blank">
+            📰 In het nieuws
+        </a>
 
-  <a class="button" href="https://www.instagram.com/fietsen4palestina/" target="_blank">
-    Doe meer! DM hier
-  </a>
+        <a class="button"
+           href="https://drive.proton.me/urls/Q8Y92VM7SG#IT6ZKhAoAyFi"
+           target="_blank">
+            📄 Flyer Rode Lijn
+        </a>
+
+        <a class="button"
+           href="https://drive.proton.me/urls/KCKKY4N338#djkPlQtDdJib"
+           target="_blank">
+            📄 Flyer Palestine Drinks
+        </a>
+
+        <a class="button"
+           href="https://www.instagram.com/fietsen4palestina/"
+           target="_blank">
+            🚲 Doe meer! DM hier
+        </a>
+
+    </div>
+
+    <div class="footer">
+        Iedere aankoop is een stem. Kies bewust.
+    </div>
 
 </div>
 
